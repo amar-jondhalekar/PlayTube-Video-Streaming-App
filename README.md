@@ -14,7 +14,7 @@ PlayTube is a modern streaming video platform designed for users to explore, wat
 
 ## Demo
 
-![PlayTube Demo](../PlayTube/ProjectDemoImage/PlayTubeDemoImage.png)
+![PlayTube Demo](/ProjectDemoImage/PlayTubeDemoImage.png)
 
 ## Technologies Used
 
