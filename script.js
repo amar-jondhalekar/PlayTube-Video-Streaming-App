@@ -19,7 +19,7 @@ if (localStorage.getItem("darkMode") === "enabled") {
   document.body.classList.add("dark-mode");
   themeButton.classList.replace("uil-moon", "uil-sun");
 } else {
-  themeButton.classList.replace("uil-sun", "uil-moon");
+    themeButton.classList.replace("uil-sun", "uil-moon");
 }
 
 // Toggle dark mode when theme button is clicked
@@ -32,5 +32,5 @@ themeButton.addEventListener("click", () => {
 
 // Show sidebar on large screens by default
 if (window.innerWidth >= 768) {
-  document.body.classList.remove("sidebar-hidden");
-}
+    document.body.classList.remove("sidebar-hidden");
+  }
