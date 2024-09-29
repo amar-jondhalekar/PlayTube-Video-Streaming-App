@@ -16,6 +16,10 @@ PlayTube is a modern streaming video platform designed for users to explore, wat
 
 ![PlayTube Demo](/ProjectDemoImage/PlayTubeDemoImage.png)
 
+## Demo Link : View Live Demo
+
+Visit : https://amar-jondhalekar.github.io/PlayTube-Video-Streaming-App/
+
 ## Technologies Used
 
 - HTML5
