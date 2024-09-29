@@ -1,2 +1,90 @@
 /* Importing Google Fonts - Open Sans */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+/* Color variables for light theme */
+:root {
+    --white: #ffffff;            /* White */
+    --black: #000000;            /* Black */
+    --light-white: #f8f8f8;      /* Light white (very light gray) */
+    --light-gray: #d3d3d3;       /* Light gray */
+    --border-color: #dddddd;     /* Light gray borders */
+    --primary-color: #007bff;    /* Primary color (blue) */
+    --secondary-color: #6c757d;  /* Secondary color (gray) */
+    --overlay-dark-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black for overlays */
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    justify-content: space-between;
+}
+.navbar :where(.nav-section, .search-form, .nav-logo){
+    display: flex;
+    align-items: center;
+}
+.navbar .nav-section{
+    gap: 1rem;
+}
+.navbar :where(.logo-image, .user-image){
+    width: 32px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.navbar .nav-button{
+    border: none;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: none;
+}
+.navbar .nav-button:hover{
+    background-color: var(--light-gray);
+}
+.navbar .nav-button i{
+    display: flex;
+    font-size: 1.5rem;
+    align-items: center;
+    justify-content: center;
+}
+.navbar .nav-logo{
+    display: flex;
+    gap: 0.5rem;
+    text-decoration: none;
+}
+.navbar .nav-logo .logo-text{
+    font-size: 1.25rem;  
+    color: var(--black);
+}
+.navbar .nav-center{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.navbar .search-form{
+    max-width: 550px;
+    flex: 1;
+    height: 40px;
+}
+.navbar .search-form .search-input{
+    width: 100%;
+    height: 100%;
+    border: 1px solid var(--border-color);
+    padding: 0 1rem;
+    border-radius: 3.1rem 0 0 3.1rem;
+    outline: none;
+    font-size: 1rem;
+}
+.navbar .search-form .search-button{
+    width: auto;
+    padding: 0 1.25rem;
+    border-radius: 0 3.1rem 3.1rem 0;
+    border: 1px solid var(--border-color);
+    border-left: 0;
+}
